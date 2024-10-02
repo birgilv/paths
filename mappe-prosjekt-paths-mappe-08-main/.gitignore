@@ -1,0 +1,7 @@
+# IntelliJ specific folders and files to be ignored by Git
+.idea/
+*.iml
+out/
+
+# Maven specific folders to be ignored by Git
+target/

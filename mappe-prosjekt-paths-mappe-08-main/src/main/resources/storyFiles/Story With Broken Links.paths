@@ -1,0 +1,14 @@
+Story With Broken Links
+
+::PassageTitle1
+PassageContent1
+[LinkText1](LinkReference1)]HealthAction,7]GoldAction,1
+[LinkText2](LinkReference2)]HealthAction,23]InventoryAction,Hammer
+
+::PassageTitle2
+PassageContent2
+[LinkText2](LinkReference2)]ScoreAction,34
+
+::PassageTitle3
+PassageContent3
+[LinkText3](LinkReference3)

@@ -1,0 +1,36 @@
+Haunted House
+
+::Entrance
+This is the beginning.
+[Go inside](Hallway)]GoldAction,1]InventoryAction,Axe]HealthAction,-2
+
+::Hallway
+This is the hallway.
+[Go down the stairs](Basement)]HealthAction,5]ScoreAction,4]GoldAction,2]InventoryAction,Hammer
+[Go up the stairs](Attic)]HealthAction,5]ScoreAction,4]GoldAction,2
+[Go back to the entrance](Entrance)]HealthAction,1]ScoreAction,1
+[Go left](Bathroom)]HealthAction,1]ScoreAction,1]GoldAction,2
+[Go right](Kitchen)]HealthAction,1]ScoreAction,1]GoldAction,2
+[Go to the end](Living room)]HealthAction,3]ScoreAction,1
+
+::Bathroom
+This is the bathroom.
+[Go back](Hallway)]GoldAction,1
+[Open the door](Living room)]HealthAction,3]ScoreAction,1
+
+::Kitchen
+This is the kitchen.
+[Go back](Hallway)]GoldAction,1
+[Open the door](Living room)]HealthAction,3]ScoreAction,1
+
+::Living room
+This is the living room.
+[Go back](Hallway)]GoldAction,1
+
+::Basement
+This is the basement.
+[Go up the stairs](Hallway)]ScoreAction,2]GoldAction,1
+
+::Attic
+This is the attic.
+[Go down the stairs](Hallway)]ScoreAction,2]GoldAction,1

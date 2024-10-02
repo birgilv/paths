@@ -1,0 +1,26 @@
+Abandoned Library
+
+::Outside
+You have arrived at the abandoned library.
+[Open the door](Hallway)]GoldAction,5
+
+::Secret room
+Woah, a secret room!
+[Sneak trough the window](Balcony)]GoldAction,-2
+
+::Backyard
+It's to dark to see anything.
+[Walk around the house](Outside)]ScoreAction,20]InventoryAction,sword
+
+::Balcony
+The wind is strong, be careful.
+[Open the balcony door](Another room)]GoldAction,1]InventoryAction,axe]HealthAction,10
+
+::Hallway
+Look at all those books. Must be over 1000 of them.
+[Open the book of spells](Secret room)]InventoryAction,hammer]HealthAction,10]ScoreAction,20
+[Walk to the open door](Backyard)]GoldAction,5]ScoreAction,10
+
+::Another room
+This is not where you came from.
+[Go back](Outside)]HealthAction,5]GoldAction,-2

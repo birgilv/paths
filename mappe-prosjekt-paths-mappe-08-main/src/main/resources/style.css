@@ -1,0 +1,216 @@
+#read-button{
+    -fx-background-color:#B6D7A8;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+
+#read-button:hover{
+    -fx-background-color:#99c785;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+
+#medium-button{
+    -fx-background-color: #D5A6BD;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+
+#medium-button:hover{
+    -fx-background-color: #c686a5;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+
+#welcomeLabel{
+    -fx-font-size: 40;
+}
+
+#newGameLabel{
+    -fx-font-size: 40;
+    -fx-text-fill: #4c77c7;
+}
+
+#playerInfoButton{
+    -fx-pref-width: 350;
+    -fx-pref-height: 80;
+    -fx-background-color: #afd0fa;
+    -fx-border-color: black;
+}
+
+#playerInfoButton:hover{
+    -fx-background-color: #9fbde3;
+}
+
+#goalsInfoButton{
+    -fx-pref-width: 350;
+    -fx-pref-height: 80;
+    -fx-background-color: #afd0fa;
+    -fx-border-color: black;
+}
+
+#goalsInfoButton:hover{
+    -fx-background-color: #9fbde3;
+}
+
+#chosenFile{
+    -fx-font-size: 20;
+    -fx-text-fill: #4c77c7;
+}
+
+#fileInfoBox{
+    -fx-padding: 5;
+}
+
+#changeStoryButton{
+    -fx-background-color:#B6D7A8;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+
+#changeStoryButton:hover{
+    -fx-background-color:#99c785;
+}
+
+#startButton{
+    -fx-background-color: #F9CB9C;
+    -fx-pref-width: 200;
+    -fx-pref-height: 60;
+    -fx-border-color: black;
+}
+
+#startButton:hover{
+    -fx-background-color: #E6BB90;
+}
+
+#pathsGameLabel{
+    -fx-font-size: 40;
+    -fx-text-fill: #4c77c7;
+}
+
+#gameArea{
+    -fx-background-color: #afd0fa;
+    -fx-border-color: black;
+}
+
+#greenGoalsButton {
+    -fx-pref-width: 350;
+    -fx-pref-height: 80;
+    -fx-border-color: black;
+    -fx-background-color: #B6D7A8;
+}
+
+#greenPlayerButton {
+    -fx-pref-width: 350;
+    -fx-pref-height: 80;
+    -fx-border-color: black;
+    -fx-background-color: #B6D7A8;
+}
+
+#greenPlayerButton:hover {
+    -fx-background-color:#99c785;
+}
+
+#greenGoalsButton:hover {
+    -fx-background-color:#99c785;
+}
+
+#changeChosenFileButton {
+    -fx-border-color: black;
+    -fx-background-color: #faf5b4;
+}
+
+#changeChosenFileButton:hover {
+    -fx-background-color: #e3dea3;
+}
+
+#linkButtons {
+    -fx-background-color:#B6D7A8;
+    -fx-border-color: black;
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+}
+
+#linkButtons:hover {
+    -fx-background-color:#99c785;
+    -fx-border-color: black;
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+}
+
+#restartButton {
+    -fx-background-color:#faf5b4;
+    -fx-border-color: black;
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+}
+
+#exitButton {
+    -fx-background-color:#faf5b4;
+    -fx-border-color: black;
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+}
+
+#saveButton {
+    -fx-background-color:#faf5b4;
+    -fx-border-color: black;
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+}
+
+#restartButton:hover {
+    -fx-background-color:#e0dc9f;
+    -fx-border-color: black;
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+}
+
+#exitButton:hover {
+    -fx-background-color:#e0dc9f;
+    -fx-border-color: black;
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+}
+
+#saveButton:hover {
+    -fx-background-color:#e0dc9f;
+    -fx-border-color: black;
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+}
+
+
+#currentPassageTitle {
+    -fx-font-family: "Impact";
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+
+#currentPassageContent {
+    -fx-font-family: "Courier New";
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+
+#miniGameOn {
+    -fx-background-color: #afd0fa;
+    -fx-border-color: black;
+}
+
+#miniGameOff {
+    -fx-background-color: #afd0fa;
+    -fx-border-color: black;
+}
+
+#miniGameOn:selected {
+    -fx-background-color: #afd0fa;
+    -fx-border-color: red;
+}
+
+#miniGameOff:selected {
+    -fx-background-color: #afd0fa;
+    -fx-border-color: red;
+}
